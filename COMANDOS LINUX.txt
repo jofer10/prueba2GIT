@@ -1,0 +1,77 @@
+COMANDO BASICOS DE LINUX
+ls: permite listar lo que tiene el directorio
+pwd: permite ver la ruta completa en la que nos encontramos
+cp: permite copiar un archivo a cualquier directorio cp (nombreArchivo) /home/kali
+mv: permite mover un archivo mv (archivo) directorio
+clear: eliminar data de la terminal
+cat:listar el contenido de un archivo cat (nombreArchivo)
+nano: permite crear archivo nano archivo.extension
+nano archivo.txt
+mkdir: permite crear una carpeta mkdir (nombreCarpeta)
+rmdir: elimina carpetas
+rm: elimina archivos
+touch: permite crear un archivo de cualquier tipo touch texto.txt
+grep: permite buscar palabras en carpetas especificadas grep (palabra) archivo.extension
+///////
+PARA ACCEDER AL METASPLOTAIBLE
+msfadmin
+pass:msfadmin
+/////////////////////
+INTRODUCCION AL RECONOMIENTO
+Tiene 2 tipos
+Reconocimiento activo: Interactuamos directamente con la victima, se realiza
+consultas al objetivo, escaneos, entre otros.
+Reconocimiento pasivo: no hay interacción con la victima directamente, utiliza
+fuentes externas y por medio de busquedas
+
+Como obtener información de dominios web
+COMANDO: dmitry
+Subdominios: ¿Para que sirve en un pentesting?
+ejemplo: 
+
+////
+Configuración DNS LOOKUP
+para instalar herramientas de hacking sudo apt-get install dnsenum
+COMANDO: dnsenum (nombreDominio) Ejemplo: dnsenum utp.edu.pe
+/////
+NMAP: Escaneo de redes, podemos ver que puertos estan abiertos, que PC estan
+activas dentro de la red, escanear redes de computadoras, versión de servicios,
+versión de SO
+Sirve para recolectar información
+Se puede escanerar dirección IP, nombres de dominios
+COMANDO: nmap 192.168.0.34
+///////////////
+searchsploit: permite buscar sploit que estan guardados en la base de datos
+de la PC
+/////////////////////
+OPERADORES EN LA WEB
+inurl:enlace(google.com, youtube, utp.edu.pe, entre otros)
+filetype: tipo archivo(pdf, xlsx)
+intitle: titulos(google)
+DORKS
+////////////////////
+OSINT: Conjunto de tecnicas y herramientas para recopilar información pública que
+se encuentra en internet, para realizar un ataque de fuerza bruta, phishing
+
+Usamos osintgram para poder realizar el escaneo de perfiles de instragram.
+De esta pagina: https://github.com/Datalux/Osintgram
+Instalamos nomas de esta manera:
+mkdir carpetaHack
+cd carpetaHack =>ingresamos a la carpeta
+(colocar) git clone https://github.com/Datalux/Osintgram.git
+(ingresamos a Osintgram) cd Osintgram
+cd config
+luego hacemos un leafpad a credential !!!!!!!!!!EN CASO NO FUNCION LEAFPAD HACER
+LO SIGUIENTE DESDE LA RAIZ:
+(
+sudo nano /etc/apt/sources.list
+"agregamos esto"=> deb http://http.kali.org/kali kali-rolling main non-free contrib
+control + o luego control + x
+sudo apt update
+/////////////////
+Y ya quedó para usar el leafpad, regresamos a donde nos quedamos en
+leafpad credentials.ini
+)
+limbar1590@hotmail.com
+Limbar?123
+IG: lmarx1590: PASS:Limbar123
